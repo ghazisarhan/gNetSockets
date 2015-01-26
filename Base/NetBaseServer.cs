@@ -255,6 +255,11 @@ namespace NetSockets
                 return;
 
             DisconnectAll();
+			// ---------------------------
+			// To fix a problem which causes the library to raise an error when stopping the service.
+			thread.Abort ();
+			thread.Join ();
+			// ---------------------------
             tcp.Stop();
 
             active = false;

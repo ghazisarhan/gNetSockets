@@ -89,5 +89,6 @@
   <ItemGroup>
     <None Include="LICENSE" />
     <None Include="README.md" />
+    <None Include="TODO.md" />
   </ItemGroup>
 </Project>

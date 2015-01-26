@@ -1,2 +1,2 @@
 # gNetSockets
-A fork of NetScckets http://netsockets.codeplex.com/
+A fork of NetSockets http://netsockets.codeplex.com/
